@@ -1,0 +1,270 @@
+.top-nav {background: #6351ce;
+    color: white;
+    padding: 12px 0!important;}
+  hr {border-top: 2px solid rgba(0,0,0,.1);}
+  .two-section{background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg); background-size: cover;background-position: center;}
+  .first-section{padding: 80px 0;}
+  .nav-item a{text-transform: uppercase; font-size: 13px; font-weight: 400; }
+  @media (min-width: 992px)
+{.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}}
+
+    
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+.login-page {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+input[type=text], input[type=email] {
+    width: 100%;}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+.login-page i.fa.fa-arrow-left {
+    background: #0000003d;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    bottom: 120px;
+}
+
+
+
+.product-main{background: url(http://www.peridothelp.in/site/images/banner1.jpg);background-size: cover;padding: 150px 0 60px; }
+  img{max-width:100%;}
+  *{transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease}
+  .my-list {width: 100%; padding: 15px; float: left;margin: 15px 0;border-radius: 2px;   box-shadow: 1px 2px 5px 2px #0000000d;position: relative;overflow: hidden;
+  }
+  .my-list h3{
+      text-align: left;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+      margin: 0px;
+      padding: 0px;
+      border-bottom: 1px solid #ccc4c4;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+      }
+    .my-list span{float:left;font-weight: bold;}
+    .my-list span:last-child{float:right;}
+    .my-list .offer {
+      width: 100%;
+      float: left;
+      margin: 5px 0;
+      border-top: 1px solid #ccc4c4;
+      margin-top: 5px;
+      padding-top: 5px;
+      color: #afadad;
+      font-size: 12px;
+      font-weight: 800;}
+      
+    .detail {
+      position: absolute;
+      top: -100%;
+      left: 0;
+      text-align: center;
+      background: #ffffffed;height: 100%;width:100%;
+    
+  }
+  .product-1{padding: 90px 0;}  
+  .my-list:hover .detail{top:0;}
+
+    .about-main{background: url(http://www.peridothelp.in/site/images/banner1.jpg);background-size: cover;padding: 150px 0 60px; }
+  .about-1 {padding: 90px 0;background: #fbfbfb;}
+  .about-2{background: url(http://www.peridothelp.in/site/images/bg3.jpg); padding: 120px 0 70px;}
+
+
+    .map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.form-header {
+    padding: 1rem;
+    margin-top: -3.13rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+
+.reward-1{padding: 90px 0;}
+
+  .order-successfull{
+    padding: 80px 0;
+    background: #fafafa;
+}
