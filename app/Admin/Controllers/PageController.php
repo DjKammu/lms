@@ -91,6 +91,7 @@ class PageController extends AdminController
                     $form->slug = \Str::slug($slug);
                 }
             }
+
         });
 
 

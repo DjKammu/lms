@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 use App\UserInfo;
-use App\Wallet;
+use Hash;
 
 class User extends Authenticatable implements HasMedia
 {
@@ -17,19 +17,12 @@ class User extends Authenticatable implements HasMedia
 
     use HasMediaTrait;
 
-    CONST ROLE_USER  = 'user';
+    CONST ROLE_TEACHER = 'Teacher';
 
-    CONST TOP_SPONSER  = 'TOP';
-
-    CONST DEFAULT_MAIL = '@shs.com';
+    CONST ROLE_STUDENT  = 'Student';
 
     CONST PER_PAGE = 20;
 
-    CONST IS_PAGI = 'pagi';
-
-    CONST IS_ALL_COUNT = 'all';
-
-    CONST IS_DIRECT_COUNT = 'direct';
 
     /**
      * The attributes that are mass assignable.
@@ -37,7 +30,7 @@ class User extends Authenticatable implements HasMedia
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','role','number'
+        'name', 'email', 'password','number'
     ];
 
     /**
@@ -62,15 +55,19 @@ class User extends Authenticatable implements HasMedia
       return $this->hasOne(UserInfo::class);
     }
     
-    public function payment(){
-        return $this->hasOne(Payment::class);
-    }
-    
-    public function walletBy(){
-        return $this->hasMany(Wallet::class,'from_user_id','id');
+    public function setPasswordAttribute($input)
+    {
+        if ($input)
+            $this->attributes['password'] = app('hash')->needsRehash($input) ? Hash::make($input) : $input;
     }
 
-    public function wallet(){
-        return $this->hasMany(Wallet::class);
+    public function role()
+    {
+        return $this->belongsToMany(Role::class, 'role_user')->withTimestamps();
     }
+
+    // public function isAdmin()
+    // {
+    //     return $this->role()->where('role_id', 1)->first();
+    // }
 }
