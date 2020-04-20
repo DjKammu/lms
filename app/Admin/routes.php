@@ -13,7 +13,8 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('admin.home');
     $router->resource('courses', CourseController::class);
     $router->resource('teachers', TeacherController::class);
-    $router->resource('students', StudentController ::class);
+    $router->resource('students', StudentController::class);
+    $router->resource('lessons', LessonController::class);
     $router->resource('pages', PageController::class);
 
 });

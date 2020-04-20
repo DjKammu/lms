@@ -98,8 +98,8 @@ class CourseController extends AdminController
         $form->multipleSelect('teachers')->options($teachers);
 
         $form->text('title', __('Title'))->rules('required|min:3');
-        $form->textarea('description', __('Description'))->rules('required');;
-        $form->image('image', __('Image'))->move('courses/')->uniqueName()->removable();
+        $form->ckeditor('description', __('Description'))->rules('required');;
+        $form->image('image', __('Image'))->move('courses')->uniqueName()->removable();
 
         // $form->decimal('price', __('Price'));
         $form->date('start_date', __('Start date'))->default(date('Y-m-d'));
