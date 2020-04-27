@@ -15,6 +15,8 @@ Route::group([
     $router->resource('teachers', TeacherController::class);
     $router->resource('students', StudentController::class);
     $router->resource('lessons', LessonController::class);
+    $router->resource('questions', QuestionController::class);
+    $router->resource('tests', TestController::class);
     $router->resource('pages', PageController::class);
 
 });

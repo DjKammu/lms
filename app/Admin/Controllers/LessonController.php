@@ -4,6 +4,7 @@ namespace App\Admin\Controllers;
 
 use App\Lesson;
 use App\Course;
+use Encore\Admin\Show\Field;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
