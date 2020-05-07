@@ -9,246 +9,218 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
+    <link rel="stylesheet" href="{{ asset('css/open-iconic-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+    
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
 
-    <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery.timepicker.css') }}">
 
-</head>
+    
+    <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
 
-<body>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="{{ url('/')}}" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="{{ route('page','about-us')}}" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="course.html" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 
-<div class="top-nav bg-grey pt-1 pb-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 text-center text-md-left mb-4 mb-md-0">
-                    <small>Welcome To Sathi help society</small>
-                </div>
-                <div class="col-md-6  col-lg-6 text-center text-md-right mb-4 mb-md-0">
-                      <!-- Facebook -->
-                      <a class="fb-ic">
-                        <i class="fab fa-facebook-f  mr-4"> </i>
-                      </a>
-                      <!-- Twitter -->
-                      <a class="tw-ic">
-                        <i class="fab fa-twitter  mr-4"> </i>
-                      </a>
-                      <!-- Google +-->
-                      <a class="gplus-ic">
-                        <i class="fab fa-google-plus-g  mr-4"> </i>
-                      </a>
-                      <!--Linkedin -->
-                      <a class="li-ic">
-                        <i class="fab fa-linkedin-in  mr-4"> </i>
-                      </a>
-                      <!--Instagram-->
-                      <a class="ins-ic">
-                        <i class="fab fa-instagram mr-4"> </i>
-                      </a>
+           @guest
+           <li class="nav-item ">
+            <a class="nav-link" href="{{ route('login') }}">Login</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="{{ route('register') }}">Register</a>
+          </li>
 
-                </div>
-            </div>
+          @else
+          <li class="nav-item ">
+            <a class="nav-link" href="{{ route('dashboard') }}">Dashboard</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();">
+                {{ __('Logout') }}
+           </a>
+           <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+             @csrf
+          </form>
+          </li>
+          @endif
+          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Apply Now!</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 ftco-animate text-center">
+            <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
+            <p><a href="#" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="#" class="btn btn-secondary px-4 py-3">View Courses</a></p>
+          </div>
         </div>
+      </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
-     <div class="container">
-         <a class="navbar-brand text-uppercase" href="#">S H S</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ url('/')}}">Home <span class="sr-only">(current)</span></a>
-              </li>
-        
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('page','about-us')}}">About Us</a>
-              </li>
-              <!-- <li class="nav-item ">
-                <a class="nav-link" href="{{ route('page','products')}}">Products</a>
-              </li> -->
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('page','rewards')}}">Rewards</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('page','contact-us')}}">
-                Contact Us</a>
-              </li>
-
-              @guest
-               <li class="nav-item ">
-                <a class="nav-link" href="{{ route('login') }}">Login</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('register') }}">Register</a>
-              </li>
-
-              @else
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('dashboard') }}">Dashboard</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('logout') }}"
-                           onclick="event.preventDefault();
-                          document.getElementById('logout-form').submit();">
-                    {{ __('Logout') }}
-               </a>
-               <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                 @csrf
-              </form>
-              </li>
-              @endif
-              
-            </ul>
-          
-          </div>
-     </div>
-    </nav>
 
     <!-- <section> -->
          @yield('content')
     <!-- </section> -->
 
 
-    <!-- Footer -->
-            <footer class="page-footer font-small unique-color-dark">
-
-              <div style="background-color: #6351ce;">
-                <div class="container">
-
-                  <!-- Grid row-->
-                  <div class="row py-4 d-flex align-items-center">
-
-                    <!-- Grid column -->
-                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                      <h6 class="mb-0">Get connected with us on social networks!</h6>
+  <section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>Subcribe to our Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                      <!-- Facebook -->
-                      <a class="fb-ic">
-                        <i class="fab fa-facebook-f white-text mr-4"> </i>
-                      </a>
-                      <!-- Twitter -->
-                      <a class="tw-ic">
-                        <i class="fab fa-twitter white-text mr-4"> </i>
-                      </a>
-                      <!-- Google +-->
-                      <a class="gplus-ic">
-                        <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                      </a>
-                      <!--Linkedin -->
-                      <a class="li-ic">
-                        <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                      </a>
-                      <!--Instagram-->
-                      <a class="ins-ic">
-                        <i class="fab fa-instagram white-text"> </i>
-                      </a>
-
-                    </div>
-                    <!-- Grid column -->
-
-                  </div>
-                  <!-- Grid row-->
-
+                  </form>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <!-- Footer Links -->
-              <div class="container text-center text-md-left mt-5">
-
-                <!-- Grid row -->
-                <div class="row mt-3">
-
-                  <!-- Grid column -->
-                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-                    <!-- Content -->
-                    <h6 class="text-uppercase font-weight-bold">Sathi help society</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p style="text-align: justify;">Our Organization is an exciting "People Help Group". A Group that has the potential to turn your dreams into reality. As you build your business and life , you will establish lifelong friendships and develop support systems unparalleled in any other business.</p>
-
+    <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_2.jpg); background-attachment:fixed;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2><a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                   </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                    
-
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                      <a href="{{ url('/')}}">Home </a>
-                    </p>
-                    <p>
-                      <a href="{{ route('page','about-us')}}">About Us</a>
-                    </p>
-                    <p>
-                      <a href="{{ route('dashboard') }}">Dashboard</a>
-                    </p>
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                      <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                    <p>
-                      <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                    <p>
-                      <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                    <p>
-                      <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-                  </div>
-                  <!-- Grid column -->
-
                 </div>
-                <!-- Grid row -->
-
               </div>
-              <!-- Footer Links -->
-
-              <!-- Copyright -->
-              <div class="footer-copyright text-center py-3">&copy; {{ date('Y') }} Copyright
-                <a href="{{ url('/') }}">Sathi help society</a>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
               </div>
-              <!-- Copyright -->
+            </div>
+          </div>
+          <div class="col-md-2">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Site Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Home</a></li>
+                <li><a href="#" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">Courses</a></li>
+                <li><a href="#" class="py-2 d-block">Students</a></li>
+                <li><a href="#" class="py-2 d-block">Video</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
 
-            </footer>
-            <!-- Footer -->
-   <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
-    @yield('pagescript')
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+     @yield('pagescript')
   </body>
 </html>
