@@ -14,4 +14,11 @@ class CourseController extends Controller
 
 	    return view('courses',compact('courses'));
 	}
+
+	public function show(Request $request,$slug = null )
+	{
+		$courses = Course::where('published',Course::PUBLISHED)->paginate(Course::PER_PAGE);
+
+	    return view('courses',compact('courses'));
+	}
 }

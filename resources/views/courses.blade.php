@@ -22,7 +22,7 @@
           <div class="col-md-4 d-flex ftco-animate">
             <div class="course align-self-stretch">
               <a href="{{ route('course.show',$course->slug)}}" class="img" 
-                style="background-image: url( {{ \Storage::url($course->image) }})"></a>
+                style="background-image: url( {{ url(\Storage::url($course->image)) }})"></a>
               <div class="text p-4">
                 <p class="category"><span class="price">Free</span></p>
                 <!-- <p class="category"><span>English</span> <span class="price">$250</span></p> -->
@@ -34,7 +34,7 @@
           </div>
           @endforeach
 
-          @empty(!$courses)
+        @empty($courses)
            <div class="alert alert-warning">
                 <strong>Sorry!</strong> No Courses Found.
            </div>

@@ -17,7 +17,7 @@ class Course extends Model implements HasMedia
 
     CONST NO = 'No';
     
-    CONST PER_PAGE = 1;
+    CONST PER_PAGE = 6;
  
     public function teachers(){
         return $this->belongsToMany(User::class,'course_user')->withTimestamps();

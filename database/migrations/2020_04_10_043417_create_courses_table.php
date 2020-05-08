@@ -18,6 +18,7 @@ class CreateCoursesTable extends Migration
             $table->string('title')->nullable();
             $table->string('slug')->nullable();
             $table->text('description')->nullable();
+            $table->text('image')->nullable();
             $table->decimal('price', 15, 2)->nullable();
             $table->date('start_date')->nullable();
             $table->tinyInteger('free')->nullable()->default(0);
