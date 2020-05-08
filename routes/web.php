@@ -51,5 +51,4 @@ Route::get('/course/{slug}', 'CourseController@show')->name('course.show');
 
 Route::get('{slug}', [
   'uses' => 'PageController@index'
-])->where('slug', '([A-Za-z0-9\-\/]+)')->name('page')
-->middleware('paid');
+])->where('slug', '([A-Za-z0-9\-\/]+)')->name('page');
