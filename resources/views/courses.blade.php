@@ -34,6 +34,12 @@
           </div>
           @endforeach
 
+          @empty(!$courses)
+           <div class="alert alert-warning">
+                <strong>Sorry!</strong> No Courses Found.
+           </div>
+        @endempty
+
           
         </div>
         <div class="row mt-5">
