@@ -11,10 +11,14 @@ class Course extends Model implements HasMedia
 {
 	use HasMediaTrait;
 
-    CONST ON = 'ON';
+    CONST PUBLISHED = 1;
 
-    CONST OFF = 'OFF';
+    CONST YES = 'Yes';
 
+    CONST NO = 'No';
+    
+    CONST PER_PAGE = 1;
+ 
     public function teachers(){
         return $this->belongsToMany(User::class,'course_user')->withTimestamps();
     }

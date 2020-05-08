@@ -2,50 +2,161 @@
 
 @section('content')
 
-<div class="about-main">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-white"><b>About Us</b></h2>
-                <p class="text-white"><b>This sense of identification also means we value and promote seamless interaction with members <br>
-                own teams, and ensure the best value is obtained from their event budget.</b></p>
-                <a href="{{ route('page','contact-us') }}" class="btn btn-danger">
-                Contact us</a>
-            </div>
+ <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 ftco-animate text-center">
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
+            <h1 class="mb-3 bread">About</h1>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-
-<div class="about-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h3><b>WHO WE ARE</b></h3>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Our NGO is committed to helping its members reach their goals, to personalizing their event experiences, to providing an innovative environment, and to making a difference.</p>
-                <p>This sense of identification also means we value and promote seamless interaction with members’ own teams, and ensure the best value is obtained from their event budget.</p>
-                <p>Our  experience at the top of the events business means we have expertise which reaches across a number of sectors, as well as knowledge of specific protocol and local regulations. But we know that things change, and we are constantly striving to adapt and improve.</p>
-                <a href="{{ route('page','products') }}" class="btn btn-primary">Our Products</a>
-            </div>
-            <div class="col-md-6">
-                <img src="http://secureservercdn.net/184.168.47.225/3ea.e17.myftpupload.com/wp-content/uploads/2018/01/who-we-are.png?time=1568610328" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</div>
 
 
-<div class="about-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 text-white text-center">
-                <h2><b>WHY CHOOSE US</b></h2>
-                <p>The main motto of the Our Organization is to boost up network help system and to provide the financial freedom as well as the time freedom.We believe in the power of the individual, and encourage talents to flourish. As a highly motivated Multinational Enterprise, We have been developing progressive strategies, which unrelentingly create a synergy for the whole Organization.</p>
-                <a href="{{ route('page','rewards') }}" class="btn btn-primary">Rewards</a>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6 d-flex ftco-animate">
+                    <div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
+                </div>
+                <div class="col-md-6 pl-md-5 ftco-animate">
+                    <h2 class="mb-4">Welcome to Genius University Stablished Since 1898</h2>
+                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+
+    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row d-md-flex justify-content-center">
+                <div class="col-md-9 about-video text-center">
+                    <h2 class="ftco-animate">Genius University is a Leading Schools Around the World</h2>
+                    <div class="video d-flex justify-content-center">
+                        <a href="https://vimeo.com/45830194" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ftco-counter bg-light" id="section-counter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row">
+                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                      <div class="text">
+                        <strong class="number" data-number="10300">0</strong>
+                        <span>Satisfied Students</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                      <div class="text">
+                        <strong class="number" data-number="7896">0</strong>
+                        <span>Courses Completed</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                      <div class="text">
+                        <strong class="number" data-number="400">0</strong>
+                        <span>Experts Advisors</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                      <div class="text">
+                        <strong class="number" data-number="200">0</strong>
+                        <span>Schools</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">What Our Student Says</h2>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+            <div class="carousel-testimony owl-carousel">
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">CSE Student</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">Math Student</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">Science Students</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">English Student</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
 @endsection

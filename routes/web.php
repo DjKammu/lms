@@ -46,6 +46,9 @@ Route::get('/admin:install', function () {
     echo $exitCode;
 });
 
+Route::get('/courses', 'CourseController@index')->name('courses');
+Route::get('/course/{slug}', 'CourseController@show')->name('course.show');
+
 Route::get('{slug}', [
   'uses' => 'PageController@index'
 ])->where('slug', '([A-Za-z0-9\-\/]+)')->name('page')

@@ -41,12 +41,15 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="{{ url('/')}}" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="{{ route('page','about-us')}}" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="course.html" class="nav-link">Courses</a></li>
+          <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
+            <a href="{{ url('/')}}" class="nav-link">Home</a></li>
+          <li class="nav-item {{ Request::is('about-us') ? 'active' : '' }}">
+            <a href="{{ route('page','about-us')}}" class="nav-link">About</a></li>
+          <li class="nav-item {{ Request::is('courses') ? 'active' : '' }}">
+            <a href="{{ route('page','courses')}}" class="nav-link">Courses</a></li>
           <li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
+          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+          <!-- <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li> -->
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 
            @guest
@@ -78,19 +81,6 @@
     </div>
   </nav>
     <!-- END nav -->
-    
-    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-8 ftco-animate text-center">
-            <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="#" class="btn btn-secondary px-4 py-3">View Courses</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <!-- <section> -->
          @yield('content')

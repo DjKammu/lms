@@ -41,8 +41,8 @@ class CourseController extends AdminController
         });
         //$grid->column('price', __('Price'));
         $grid->column('start_date', __('Start date'));
-        $grid->column('free', __('Free'))->using(['1' => Course::ON, '0' => Course::OFF]);
-        $grid->column('published', __('Published'))->using(['1' => Course::ON, '0' => Course::OFF]);
+        $grid->column('free', __('Free'))->using(['1' => Course::YES, '0' => Course::NO]);
+        $grid->column('published', __('Published'))->using(['1' => Course::YES, '0' => Course::NO]);
         $grid->column('created_at', __('Created at'));
        // $grid->column('updated_at', __('Updated at'));
        // $grid->column('deleted_at', __('Deleted at'));
@@ -104,12 +104,12 @@ class CourseController extends AdminController
         // $form->decimal('price', __('Price'));
         $form->date('start_date', __('Start date'))->default(date('Y-m-d'));
         $states = [
-            'on'  => ['value' => 1, 'text' => Course::ON],
-            'off' => ['value' => 0, 'text' => Course::OFF]
+            'on'  => ['value' => 1, 'text' => Course::YES],
+            'off' => ['value' => 0, 'text' => Course::NO]
         ];        
 
-        $form->switch('free', __('Free'))->states($states)->default(Course::ON);
-        $form->switch('published', __('Published'))->states($states)->default(Course::ON);
+        $form->switch('free', __('Free'))->states($states)->default(Course::YES);
+        $form->switch('published', __('Published'))->states($states)->default(Course::YES);
 
         $form->hidden('slug');
 
