@@ -2,53 +2,76 @@
 
 @section('content')
 
-<div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Course</span></p>
-            <h1 class="mb-3 bread">Courses</h1>
+
+  <!-- start banner Area -->
+      <section class="banner-area relative about-banner" id="home"> 
+        <div class="overlay overlay-bg"></div>
+        <div class="container">       
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+              <h1 class="text-white">
+                Popular Courses   
+              </h1> 
+              <p class="text-white link-nav"><a href="{{ url('/')}}">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ url('/courses')}}"> Popular Courses</a></p>
+            </div>  
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <!-- End banner Area -->  
 
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row">
-
-          @foreach($courses as $course)
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="course align-self-stretch">
-              <a href="{{ route('course.show',$course->slug)}}" class="img" 
-                style="background-image: url( {{ url(\Storage::url($course->image)) }})"></a>
-              <div class="text p-4">
-                <p class="category"><span class="price">Free</span></p>
-                <!-- <p class="category"><span>English</span> <span class="price">$250</span></p> -->
-                <h3 class="mb-3"><a href="#">{{ $course->title}}</a></h3>
-                <p>{{ Str::limit(strip_tags($course->description),100) }}</p>
-                <p><a href="{{ route('course.show',$course->slug)}}" class="btn btn-primary">Enroll now!</a></p>
+      <!-- Start popular-courses Area --> 
+      <section class="popular-courses-area section-gap courses-page">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+              <div class="title text-center">
+                <h1 class="mb-10">Popular Courses we offer</h1>
+                <p>There is a moment in the life of any aspiring.</p>
               </div>
             </div>
+          </div>            
+          <div class="row">
+
+             @foreach($courses as $course)
+
+              <div class="single-popular-carusel col-lg-3 col-md-6">
+              <div class="thumb-wrap relative">
+                <div class="thumb relative">
+                  <div class="overlay overlay-bg"></div>  
+                  <img class="img-fluid" src="{{ url(\Storage::url($course->image)) }}" alt="">
+                </div>
+                <div class="meta d-flex justify-content-between">
+                  <!-- <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p> -->
+                  <h4>Free</h4>
+                </div>                  
+              </div>
+              <div class="details">
+                <a href="{{ route('course.show',$course->slug)}}">
+                  <h4>
+                    {{ $course->title}}
+                  </h4>
+                </a>
+                <p>
+                  {{ Str::limit(strip_tags($course->description),100) }}                  
+                </p>
+              </div>
+            </div>  
+
+            @endforeach
+
+            @empty($courses)
+               <div class="alert alert-warning">
+                    <strong>Sorry!</strong> No Courses Found.
+               </div>
+            @endempty
+
+
+                                    
           </div>
-          @endforeach
 
-        @empty($courses)
-           <div class="alert alert-warning">
-                <strong>Sorry!</strong> No Courses Found.
-           </div>
-        @endempty
-
+          {{ $courses->links()}}
           
-        </div>
-        <div class="row mt-5">
-          <div class="col text-center">
-            <div class="block-27">
-               {{ $courses->links('pagination')}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </div>  
+      </section>
+      <!-- End popular-courses Area -->     
 @endsection

@@ -2,161 +2,343 @@
 
 @section('content')
 
- <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
-            <h1 class="mb-3 bread">About</h1>
+<!-- start banner Area -->
+      <section class="banner-area relative about-banner" id="home"> 
+        <div class="overlay overlay-bg"></div>
+        <div class="container">       
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+              <h1 class="text-white">
+                About Us        
+              </h1> 
+              <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
+            </div>  
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <!-- End banner Area -->  
 
-
-    <section class="ftco-section">
+      <!-- Start feature Area -->
+      <section class="feature-area pb-120">
         <div class="container">
-            <div class="row d-flex">
-                <div class="col-md-6 d-flex ftco-animate">
-                    <div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="single-feature">
+                <div class="title">
+                  <h4>Learn Online Courses</h4>
                 </div>
-                <div class="col-md-6 pl-md-5 ftco-animate">
-                    <h2 class="mb-4">Welcome to Genius University Stablished Since 1898</h2>
-                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                <div class="desc-wrap">
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement
+                    of technology.
+                  </p>
+                  <a href="#">Join Now</a>                  
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
-
-    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row d-md-flex justify-content-center">
-                <div class="col-md-9 about-video text-center">
-                    <h2 class="ftco-animate">Genius University is a Leading Schools Around the World</h2>
-                    <div class="video d-flex justify-content-center">
-                        <a href="https://vimeo.com/45830194" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
-                    </div>
+            <div class="col-lg-4">
+              <div class="single-feature">
+                <div class="title">
+                  <h4>No.1 of universities</h4>
                 </div>
+                <div class="desc-wrap">
+                  <p>
+                    For many of us, our very first experience of learning about the celestial bodies begins when we saw our first.
+                  </p>
+                  <a href="#">Join Now</a>                  
+                </div>
+              </div>
             </div>
-        </div>
-    </section>
-    <section class="ftco-counter bg-light" id="section-counter">
+            <div class="col-lg-4">
+              <div class="single-feature">
+                <div class="title">
+                  <h4>Huge Library</h4>
+                </div>
+                <div class="desc-wrap">
+                  <p>
+                    If you are a serious astronomy fanatic like a lot of us are, you can probably remember that one event.
+                  </p>
+                  <a href="#">Join Now</a>                  
+                </div>
+              </div>
+            </div>                        
+          </div>
+        </div>  
+      </section>
+      <!-- End feature Area -->   
+
+      <!-- Start info Area -->
+      <section class="info-area pb-120">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-6 no-padding info-area-left">
+              <img class="img-fluid" src="img/about-img.jpg" alt="">
+            </div>
+            <div class="col-lg-6 info-area-right">
+              <h1>Who we are
+              to Serave the nation</h1>
+              <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.</p>
+              <br>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+              </p>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <!-- End info Area -->  
+
+      <!-- Start course-mission Area -->
+      <section class="course-mission-area pb-120">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
+          <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+              <div class="title text-center">
+                <h1 class="mb-10">Goals to Achieve for the leadership</h1>
+                <p>Who are in extremely love with eco friendly system.</p>
+              </div>
+            </div>
+          </div>              
                     <div class="row">
-                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 text-center">
-                      <div class="text">
-                        <strong class="number" data-number="10300">0</strong>
-                        <span>Satisfied Students</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 text-center">
-                      <div class="text">
-                        <strong class="number" data-number="7896">0</strong>
-                        <span>Courses Completed</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 text-center">
-                      <div class="text">
-                        <strong class="number" data-number="400">0</strong>
-                        <span>Experts Advisors</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 text-center">
-                      <div class="text">
-                        <strong class="number" data-number="200">0</strong>
-                        <span>Schools</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+                        <div class="col-md-6 accordion-left">
 
-    <section class="ftco-section testimony-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">What Our Student Says</h2>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 ftco-animate">
-            <div class="carousel-testimony owl-carousel">
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">CSE Student</span>
-                  </div>
+                            <!-- accordion 2 start-->
+                            <dl class="accordion">
+                                <dt>
+                                    <a href="">Success</a>
+                                </dt>
+                                <dd>
+                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+                                </dd>
+                                <dt>
+                                    <a href="">Info</a>
+                                </dt>
+                                <dd>
+                                    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.
+                                </dd>
+                                <dt>
+                                    <a href="">Danger</a>
+                                </dt>
+                                <dd>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+                                </dd>
+                                <dt>
+                                    <a href="">Warning</a>
+                                </dt>
+                                <dd>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+                                </dd>                                    
+                            </dl>
+                            <!-- accordion 2 end-->
+                        </div>
+                        <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
+                          <div class="overlay overlay-bg"></div>
+              <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
+                        </div>
+                    </div>
+        </div>  
+      </section>
+      <!-- End course-mission Area -->
+          
+
+      <!-- Start search-course Area -->
+      <section class="search-course-area relative">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 col-md-6 search-course-left">
+              <h1 class="text-white">
+                Get reduced fee <br>
+                during this Summer!
+              </h1>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+              </p>
+              <div class="row details-content">
+                <div class="col single-detials">
+                  <span class="lnr lnr-graduation-hat"></span>
+                  <a href="#"><h4>Expert Instructors</h4></a>   
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>            
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Math Student</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Science Students</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">English Student</span>
-                  </div>
-                </div>
+                <div class="col single-detials">
+                  <span class="lnr lnr-license"></span>
+                  <a href="#"><h4>Certification</h4></a>    
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>            
+                </div>                
               </div>
             </div>
+            <div class="col-lg-4 col-md-6 search-course-right section-gap">
+              <form class="form-wrap" action="#">
+                <h4 class="text-white pb-20 text-center mb-30">Search for Available Course</h4>   
+                <input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" >
+                <input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'" >
+                <input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" >
+                <div class="form-select" id="service-select">
+                  <select>
+                    <option datd-display="">Choose Course</option>
+                    <option value="1">Course One</option>
+                    <option value="2">Course Two</option>
+                    <option value="3">Course Three</option>
+                    <option value="4">Course Four</option>
+                  </select>
+                </div>                  
+                <button class="primary-btn text-uppercase">Submit</button>
+              </form>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    
+        </div>  
+      </section>
+      <!-- End search-course Area -->     
 
+      <!-- Start review Area -->
+      <section class="review-area section-gap relative">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">       
+          <div class="row">
+            <div class="active-review-carusel">
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>  
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <img src="img/r1.png" alt="">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>                                                        
+            </div>
+          </div>
+        </div>  
+      </section>
+      <!-- End review Area -->          
+
+      <!-- Start cta-two Area -->
+      <section class="cta-two-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 cta-left">
+              <h1>Not Yet Satisfied with our Trend?</h1>
+            </div>
+            <div class="col-lg-4 cta-right">
+              <a class="primary-btn wh" href="#">view our blog</a>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <!-- End cta-two Area -->   
 @endsection

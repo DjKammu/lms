@@ -2,475 +2,654 @@
 
 @section('content')
 
-       <div class="hero-wrap" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-8 ftco-animate text-center">
-            <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="#" class="btn btn-secondary px-4 py-3">View Courses</a></p>
+<!-- start banner Area -->
+      <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>  
+        <div class="container">
+          <div class="row fullscreen d-flex align-items-center justify-content-between">
+            <div class="banner-content col-lg-9 col-md-12">
+              <h1 class="text-uppercase">
+                We Ensure better education
+                for a better world      
+              </h1>
+              <p class="pt-10 pb-10">
+                In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.
+              </p>
+              <a href="#" class="primary-btn text-uppercase">Get Started</a>
+            </div>                    
           </div>
-        </div>
-      </div>
-    </div>
+        </div>          
+      </section>
+      <!-- End banner Area -->
 
-    <section class="ftco-search-course">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="courseSearch-wrap d-md-flex flex-column-reverse">
-              <div class="full-wrap d-flex ftco-animate">
-                <div class="one-third order-last p-5">
-                  <span>Know what you're after?</span>
-                  <h3>I want to study</h3>
-                  <form action="#" class="course-search-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Type a course you want to study">
-                      <input type="submit" value="Search" class="submit">
-                    </div>
-                  </form>
-                  <p>Just Browsing? <a href="#"> See all courses</a></p>
+      <!-- Start feature Area -->
+      <section class="feature-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="single-feature">
+                <div class="title">
+                  <h4>Learn Online Courses</h4>
                 </div>
-                <div class="one-forth order-first img" style="background-image: url(images/image_1.jpg);"></div>
-              </div>
-              <div class="full-wrap ftco-animate">
-                <div class="one-half">
-                  <div class="featured-blog d-md-flex">
-                    <div class="image d-flex order-last">
-                      <a href="#" class="img" style="background: url(images/image_2.jpg);"></a>
-                    </div>
-                    <div class="text order-first">
-                      <span class="date">Aug 20, 2018</span>
-                      <h3><a href="#">We Conduct Workshop 2018</a></h3>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    </div>
-                  </div>
+                <div class="desc-wrap">
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement
+                    of technology.
+                  </p>
+                  <a href="#">Join Now</a>                  
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services p-3 py-4 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-exam"></span></div>
-              <div class="media-body px-3">
-                <h3 class="heading">Admission</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services p-3 py-4 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-blackboard"></span></div>
-              <div class="media-body px-3">
-                <h3 class="heading">Notice Board</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services p-3 py-4 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-books"></span></div>
-              <div class="media-body px-3">
-                <h3 class="heading">Our Library</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>    
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row d-md-flex justify-content-center">
-          <div class="col-md-9 about-video text-center">
-            <h2 class="ftco-animate">Genius University is a Leading Schools Around the World</h2>
-            <div class="video d-flex justify-content-center">
-              <a href="https://vimeo.com/45830194" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="ftco-counter bg-light" id="section-counter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <strong class="number" data-number="10300">0</strong>
-                    <span>Satisfied Students</span>
-                  </div>
+            <div class="col-lg-4">
+              <div class="single-feature">
+                <div class="title">
+                  <h4>No.1 of universities</h4>
                 </div>
-              </div>
-              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <strong class="number" data-number="7896">0</strong>
-                    <span>Courses Completed</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <strong class="number" data-number="400">0</strong>
-                    <span>Experts Advisors</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <strong class="number" data-number="200">0</strong>
-                    <span>Schools</span>
-                  </div>
+                <div class="desc-wrap">
+                  <p>
+                    For many of us, our very first experience of learning about the celestial bodies begins when we saw our first.
+                  </p>
+                  <a href="#">Join Now</a>                  
                 </div>
               </div>
             </div>
+            <div class="col-lg-4">
+              <div class="single-feature">
+                <div class="title">
+                  <h4>Huge Library</h4>
+                </div>
+                <div class="desc-wrap">
+                  <p>
+                    If you are a serious astronomy fanatic like a lot of us are, you can probably remember that one event.
+                  </p>
+                  <a href="#">Join Now</a>                  
+                </div>
+              </div>
+            </div>                        
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section testimony-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">What Our Student Says</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 ftco-animate">
-            <div class="carousel-testimony owl-carousel">
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">CSE Student</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Math Student</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Science Students</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">English Student</span>
-                  </div>
-                </div>
+        </div>  
+      </section>
+      <!-- End feature Area -->
+          
+      <!-- Start popular-course Area -->
+      <section class="popular-course-area section-gap">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+              <div class="title text-center">
+                <h1 class="mb-10">Popular Courses we offer</h1>
+                <p>There is a moment in the life of any aspiring.</p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Experience Advisor</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 mb-sm-4 ftco-animate">
-            <div class="staff">
-              <div class="d-flex mb-4">
-                <div class="img" style="background-image: url(images/person_1.jpg);"></div>
-                <div class="info ml-4">
-                  <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-                  <span class="position">CSE Teacher</span>
-                  <p class="ftco-social d-flex">
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+          </div>            
+          <div class="row">
+            <div class="active-popular-carusel">
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p1.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn Designing
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>  
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p2.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn React js beginners
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>  
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p3.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn Photography
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>  
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p4.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn Surveying
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
                   </p>
                 </div>
               </div>
-              <div class="text">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-              </div>
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p1.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn Designing
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>  
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p2.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn React js beginners
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>  
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p3.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn Photography
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>  
+              <div class="single-popular-carusel">
+                <div class="thumb-wrap relative">
+                  <div class="thumb relative">
+                    <div class="overlay overlay-bg"></div>  
+                    <img class="img-fluid" src="img/p4.jpg" alt="">
+                  </div>
+                  <div class="meta d-flex justify-content-between">
+                    <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
+                    <h4>$150</h4>
+                  </div>                  
+                </div>
+                <div class="details">
+                  <a href="#">
+                    <h4>
+                      Learn Surveying
+                    </h4>
+                  </a>
+                  <p>
+                    When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  </p>
+                </div>
+              </div>              
             </div>
           </div>
-          <div class="col-lg-4 mb-sm-4 ftco-animate">
-            <div class="staff">
-              <div class="d-flex mb-4">
-                <div class="img" style="background-image: url(images/person_2.jpg);"></div>
-                <div class="info ml-4">
-                  <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-                  <span class="position">CSE Teacher</span>
-                  <p class="ftco-social d-flex">
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+        </div>  
+      </section>
+      <!-- End popular-course Area -->
+      
+
+      <!-- Start search-course Area -->
+      <section class="search-course-area relative">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 col-md-6 search-course-left">
+              <h1 class="text-white">
+                Get reduced fee <br>
+                during this Summer!
+              </h1>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+              </p>
+              <div class="row details-content">
+                <div class="col single-detials">
+                  <span class="lnr lnr-graduation-hat"></span>
+                  <a href="#"><h4>Expert Instructors</h4></a>   
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>            
+                </div>
+                <div class="col single-detials">
+                  <span class="lnr lnr-license"></span>
+                  <a href="#"><h4>Certification</h4></a>    
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>            
+                </div>                
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 search-course-right section-gap">
+              <form class="form-wrap" action="#">
+                <h4 class="text-white pb-20 text-center mb-30">Search for Available Course</h4>   
+                <input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" >
+                <input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'" >
+                <input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" >
+                <div class="form-select" id="service-select">
+                  <select>
+                    <option datd-display="">Choose Course</option>
+                    <option value="1">Course One</option>
+                    <option value="2">Course Two</option>
+                    <option value="3">Course Three</option>
+                    <option value="4">Course Four</option>
+                  </select>
+                </div>                  
+                <button class="primary-btn text-uppercase">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <!-- End search-course Area -->
+      
+    
+      <!-- Start upcoming-event Area -->
+      <section class="upcoming-event-area section-gap">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+              <div class="title text-center">
+                <h1 class="mb-10">Upcoming Events of our Institute</h1>
+                <p>If you are a serious astronomy fanatic like a lot of us</p>
+              </div>
+            </div>
+          </div>                
+          <div class="row">
+            <div class="active-upcoming-event-carusel">
+              <div class="single-carusel row align-items-center">
+                <div class="col-12 col-md-6 thumb">
+                  <img class="img-fluid" src="img/e1.jpg" alt="">
+                </div>
+                <div class="detials col-12 col-md-6">
+                  <p>25th February, 2018</p>
+                  <a href="#"><h4>The Universe Through
+                  A Child S Eyes</h4></a>
+                  <p>
+                    For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
                   </p>
                 </div>
               </div>
-              <div class="text">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-sm-4 ftco-animate">
-            <div class="staff">
-              <div class="d-flex mb-4">
-                <div class="img" style="background-image: url(images/person_3.jpg);"></div>
-                <div class="info ml-4">
-                  <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-                  <span class="position">CSE Teacher</span>
-                  <p class="ftco-social d-flex">
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+              <div class="single-carusel row align-items-center">
+                <div class="col-12 col-md-6 thumb">
+                  <img class="img-fluid" src="img/e2.jpg" alt="">
+                </div>
+                <div class="detials col-12 col-md-6">
+                  <p>25th February, 2018</p>
+                  <a href="#"><h4>The Universe Through
+                  A Child S Eyes</h4></a>
+                  <p>
+                    For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                  </p>
+                </div>
+              </div>  
+              <div class="single-carusel row align-items-center">
+                <div class="col-12 col-md-6 thumb">
+                  <img class="img-fluid" src="img/e1.jpg" alt="">
+                </div>
+                <div class="detials col-12 col-md-6">
+                  <p>25th February, 2018</p>
+                  <a href="#"><h4>The Universe Through
+                  A Child S Eyes</h4></a>
+                  <p>
+                    For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                  </p>
+                </div>
+              </div>  
+              <div class="single-carusel row align-items-center">
+                <div class="col-12 col-md-6 thumb">
+                  <img class="img-fluid" src="img/e1.jpg" alt="">
+                </div>
+                <div class="detials col-12 col-md-6">
+                  <p>25th February, 2018</p>
+                  <a href="#"><h4>The Universe Through
+                  A Child S Eyes</h4></a>
+                  <p>
+                    For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
                   </p>
                 </div>
               </div>
-              <div class="text">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-              </div>
+              <div class="single-carusel row align-items-center">
+                <div class="col-12 col-md-6 thumb">
+                  <img class="img-fluid" src="img/e2.jpg" alt="">
+                </div>
+                <div class="detials col-12 col-md-6">
+                  <p>25th February, 2018</p>
+                  <a href="#"><h4>The Universe Through
+                  A Child S Eyes</h4></a>
+                  <p>
+                    For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                  </p>
+                </div>
+              </div>  
+              <div class="single-carusel row align-items-center">
+                <div class="col-12 col-md-6 thumb">
+                  <img class="img-fluid" src="img/e1.jpg" alt="">
+                </div>
+                <div class="detials col-12 col-md-6">
+                  <p>25th February, 2018</p>
+                  <a href="#"><h4>The Universe Through
+                  A Child S Eyes</h4></a>
+                  <p>
+                    For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                  </p>
+                </div>
+              </div>                                            
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </div>  
+      </section>
+      <!-- End upcoming-event Area -->
+            
+      <!-- Start review Area -->
+      <section class="review-area section-gap relative">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">       
+          <div class="row">
+            <div class="active-review-carusel">
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>  
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <img src="img/r1.png" alt="">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Fannie Rowe</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>
+              <div class="single-review item">
+                <div class="title justify-content-start d-flex">
+                  <a href="#"><h4>Hulda Sutton</h4></a>
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p>
+                  Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                </p>
+              </div>                                                        
+            </div>
+          </div>
+        </div>  
+      </section>
+      <!-- End review Area -->  
+      
+      <!-- Start cta-one Area -->
+      <section class="cta-one-area relative section-gap">
+        <div class="container">
+          <div class="overlay overlay-bg"></div>
+          <div class="row justify-content-center">
+            <div class="wrap">
+              <h1 class="text-white">Become an instructor</h1>
+              <p>
+                There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck.
+              </p>
+              <a class="primary-btn wh" href="#">Apply for the post</a>               
+            </div>          
+          </div>
+        </div>  
+      </section>
+      <!-- End cta-one Area -->
 
-    <section class="ftco-freeTrial">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="d-flex align-items-center">
-              <div class="free-trial ftco-animate">
-                <h3>Try our free trial course</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-              </div>
-              <div class="btn-join ftco-animate">
-                <p><a href="#" class="btn btn-primary py-3 px-4">Join now!</a></p>
+      <!-- Start blog Area -->
+      <section class="blog-area section-gap" id="blog">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+              <div class="title text-center">
+                <h1 class="mb-10">Latest posts from our Blog</h1>
+                <p>In the history of modern astronomy there is.</p>
               </div>
             </div>
+          </div>          
+          <div class="row">
+            <div class="col-lg-3 col-md-6 single-blog">
+              <div class="thumb">
+                <img class="img-fluid" src="img/b1.jpg" alt="">               
+              </div>
+              <p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
+              <a href="blog-single.html">
+                <h5>Addiction When Gambling Becomes A Problem</h5>
+              </a>
+              <p>
+                Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their.
+              </p>
+              <a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>    
+            </div>
+            <div class="col-lg-3 col-md-6 single-blog">
+              <div class="thumb">
+                <img class="img-fluid" src="img/b2.jpg" alt="">               
+              </div>
+              <p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
+              <a href="blog-single.html">
+                <h5>Computer Hardware Desktops And Notebooks</h5>
+              </a>
+              <p>
+                Ah, the technical interview. Nothing like it. Not only does it cause anxiety, but it causes anxiety for several different reasons. 
+              </p>
+              <a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>            
+            </div>
+            <div class="col-lg-3 col-md-6 single-blog">
+              <div class="thumb">
+                <img class="img-fluid" src="img/b3.jpg" alt="">               
+              </div>
+              <p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
+              <a href="blog-single.html">
+                <h5>Make Myspace Your Best Designed Space</h5>
+              </a>
+              <p>
+                Plantronics with its GN Netcom wireless headset creates the next generation of wireless headset and other products such as wireless.
+              </p>
+              <a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>                  
+            </div>
+            <div class="col-lg-3 col-md-6 single-blog">
+              <div class="thumb">
+                <img class="img-fluid" src="img/b4.jpg" alt="">               
+              </div>
+              <p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
+              <a href="blog-single.html">
+                <h5>Video Games Playing With Imagination</h5>
+              </a>
+              <p>
+                About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.   11% of all adult internet 
+              </p>
+              <a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>              
+            </div>              
           </div>
-        </div>
-      </div>
-    </section>
+        </div>  
+      </section>
+      <!-- End blog Area -->      
+      
 
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Courses</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="course align-self-stretch">
-              <a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
-              <div class="text p-4">
-                <p class="category"><span>English</span></p>
-                <h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-                <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-              </div>
+      <!-- Start cta-two Area -->
+      <section class="cta-two-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 cta-left">
+              <h1>Not Yet Satisfied with our Trend?</h1>
+            </div>
+            <div class="col-lg-4 cta-right">
+              <a class="primary-btn wh" href="#">view our blog</a>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="course align-self-stretch">
-              <a href="#" class="img" style="background-image: url(images/course-2.jpg)"></a>
-              <div class="text p-4">
-                <p class="category"><span>Science</span></p>
-                <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-                <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="course align-self-stretch">
-              <a href="#" class="img" style="background-image: url(images/course-3.jpg)"></a>
-              <div class="text p-4">
-                <p class="category"><span>Business</span></p>
-                <h3 class="mb-3"><a href="#">Business Studies</a></h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-                <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center mt-5">
-          <div class="col-md-10 ftco-animate">
-            <p><strong>When she reached</strong> the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-            <p><span>Just Browsing?</span><a href="course.html"> View All Courses</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Recent from blog</h2>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Latest Events</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry d-flex align-self-stretch flex-column-reverse">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </div>  
+      </section>
+      <!-- End cta-two Area -->
 @endsection
