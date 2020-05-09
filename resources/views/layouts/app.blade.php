@@ -159,8 +159,8 @@
                 <li><a href="#" class="py-2 d-block">Home</a></li>
                 <li><a href="#" class="py-2 d-block">About</a></li>
                 <li><a href="#" class="py-2 d-block">Courses</a></li>
-                <li><a href="#" class="py-2 d-block">Students</a></li>
-                <li><a href="#" class="py-2 d-block">Video</a></li>
+                <!-- <li><a href="#" class="py-2 d-block">Students</a></li> -->
+                <!-- <li><a href="#" class="py-2 d-block">Video</a></li> -->
               </ul>
             </div>
           </div>

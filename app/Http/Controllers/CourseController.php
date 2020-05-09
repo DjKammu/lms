@@ -17,8 +17,14 @@ class CourseController extends Controller
 
 	public function show(Request $request,$slug = null )
 	{
-		$courses = Course::where('published',Course::PUBLISHED)->paginate(Course::PER_PAGE);
+		$courses = Course::where(
+			    [['published', Course::PUBLISHED], ['slug','<>', $slug]]
+			 )->limit(Course::SINGLE_PER_PAGE)->get();
 
-	    return view('courses',compact('courses'));
+		$course = Course::where(
+		  ['published' => Course::PUBLISHED, 'slug' => $slug]
+		)->first();
+
+	    return view('course',compact('course','courses'));
 	}
 }
