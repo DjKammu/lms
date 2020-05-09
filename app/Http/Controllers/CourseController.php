@@ -19,12 +19,12 @@ class CourseController extends Controller
 	{
 		$courses = Course::where(
 			    [['published', Course::PUBLISHED], ['slug','<>', $slug]]
-			 )->limit(Course::SINGLE_PER_PAGE)->get();
+			 )->paginate(Course::SINGLE_PER_PAGE);
 
 		$course = Course::where(
 		  ['published' => Course::PUBLISHED, 'slug' => $slug]
-		)->first();
-
+		)->with('teachers','lessons')->first();
+     
 	    return view('course',compact('course','courses'));
 	}
 }

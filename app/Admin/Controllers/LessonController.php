@@ -40,8 +40,8 @@ class LessonController extends AdminController
 
         // $grid->column('full_text', __('Full text'));
         // $grid->column('position', __('Position'));
-        $grid->column('free_lesson', __('Free lesson'))->using(['1' => Course::ON, '0' => Course::OFF]);
-        $grid->column('published', __('Published'))->using(['1' => Course::ON, '0' => Course::OFF]);
+        $grid->column('free_lesson', __('Free lesson'))->using(['1' => Course::YES, '0' => Course::NO]);
+        $grid->column('published', __('Published'))->using(['1' => Course::YES, '0' => Course::NO]);
         $grid->column('created_at', __('Created at'));
         //$grid->column('updated_at', __('Updated at'));
         // $grid->column('deleted_at', __('Deleted at'));
@@ -101,12 +101,12 @@ class LessonController extends AdminController
               ->uniqueName()->removable()->rules('mimes:doc,docx,xlsx,pdf');
 
         $states = [
-            'on'  => ['value' => 1, 'text' => Course::ON],
-            'off' => ['value' => 0, 'text' => Course::OFF]
+            'on'  => ['value' => 1, 'text' => Course::YES],
+            'off' => ['value' => 0, 'text' => Course::NO]
         ];        
 
-        $form->switch('free_lesson', __('Free Lesson'))->states($states)->default(Course::ON);
-        $form->switch('published', __('Published'))->states($states)->default(Course::ON);
+        $form->switch('free_lesson', __('Free Lesson'))->states($states)->default(Course::YES);
+        $form->switch('published', __('Published'))->states($states)->default(Course::YES);
 
          $form->saving(function (Form $form){
 

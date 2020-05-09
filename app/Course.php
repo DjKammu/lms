@@ -19,10 +19,14 @@ class Course extends Model implements HasMedia
     
     CONST PER_PAGE = 6;
 
-    CONST SINGLE_PER_PAGE = 6;
+    CONST SINGLE_PER_PAGE = 4;
  
     public function teachers(){
         return $this->belongsToMany(User::class,'course_user')->withTimestamps();
+    }
+
+    public function lessons(){
+        return $this->hasMany(Lesson::class);
     }
 
 

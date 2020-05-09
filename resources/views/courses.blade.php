@@ -33,7 +33,7 @@
           <div class="row">
 
              @foreach($courses as $course)
-
+              
               <div class="single-popular-carusel col-lg-3 col-md-6">
               <div class="thumb-wrap relative">
                 <div class="thumb relative">

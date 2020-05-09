@@ -48,6 +48,7 @@ Route::get('/admin:install', function () {
 
 Route::get('/courses', 'CourseController@index')->name('courses');
 Route::get('/course/{slug}', 'CourseController@show')->name('course.show');
+Route::get('/lesson/{slug}', 'CourseController@show')->name('lesson.show');
 
 Route::get('{slug}', [
   'uses' => 'PageController@index'
